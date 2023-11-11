@@ -1,8 +1,12 @@
 import styled from "@emotion/styled"
+import { Url } from "next/dist/shared/lib/router/router"
 import Link from "next/link"
+import { Key } from "react"
 
 const NavBar: React.FC = () => {
-  const links = [{ id: 1, name: "About", to: "/about" }]
+  const links: { id: Key; name: String; to: Url }[] = [
+    // { id: 1, name: "About", to: "/about" }
+  ]
   return (
     <StyledWrapper className="">
       <ul>
