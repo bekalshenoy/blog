@@ -48,6 +48,8 @@ const StyledWrapper = styled.div`
     .top {
       position: relative;
       width: 100%;
+      height: auto;
+      border-radius: 5px;
       &:after {
         content: "";
         display: block;
@@ -62,7 +64,6 @@ const StyledWrapper = styled.div`
       .name {
         font-size: 1.25rem;
         line-height: 1.75rem;
-        font-style: italic;
         font-weight: 700;
       }
       .role {
