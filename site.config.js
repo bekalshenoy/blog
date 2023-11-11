@@ -10,12 +10,12 @@ const CONFIG = {
     github: "bekalshenoy",
     instagram: "",
   },
-  // projects: [
-  //   {
-  //     name: `morethan-log`,
-  //     href: "https://github.com/morethanmin/morethan-log",
-  //   },
-  // ],
+  projects: [
+    {
+      name: ``,
+      href: "",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "Ramnath's Blog",
@@ -52,13 +52,6 @@ const CONFIG = {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
       label: "💬 Utterances",
-    },
-  },
-  cusdis: {
-    enable: false,
-    config: {
-      host: "https://cusdis.com",
-      appid: "", // Embed Code -> data-app-id value
     },
   },
   isProd: true, // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
